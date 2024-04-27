@@ -29,6 +29,13 @@
   </distributionManagement>
 
   <build>
+
+           <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.8.7</version>
+</plugin>
+           
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
